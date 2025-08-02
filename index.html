@@ -1,12 +1,344 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Welcome </title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <h1>Welcome to Inika's website</h1>
-        
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+       
+        <img src="data:image/jpeg;base64,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" alt="Logo" height="80">
+        <nav class="main-nav">
+            <ul>
+                <!--  <li><a href="/home.html">Home</a></li> -->
+                <li><a href="/about.html" target="_main">ABOUT</a></li>
+                <li><a href="/contact.html" target="_main">CONTACT</a></li>
+                 <li><a href="/signin.html" target="_main">SIGN IN</a></li>
+            </ul>
+        </nav>
+       
+       
+
+    </header>
+    <main>
+        <aside id ="sidebar">
+            
+    
+            <ul class="sidebar-menu">
+                
+                <li class="has-dropdown">
+                    <input type="checkbox" id="toggle-tournaments" class="dropdown-checkbox" hidden>
+                    <label for="toggle-tournaments">Tournaments <span class="caret">&#9652;</span></label>
+                    <ul class="dropdown-content">
+                        <li><a href="#US Open">US Open</a></li>
+                        <li><a href="#French Open">French Open</a></li>
+                        <li><a href="#Australian Open">Australian Open</a></li>
+                        <li><a href="#Wimbledon">Wimbledon</a></li>
+                    </ul>
+                </li>
+    
+                <li class="has-dropdown">
+                    <input type="checkbox" id="toggle-legends" class="dropdown-checkbox" hidden>
+                    <label for="toggle-legends">Legends <span class="caret">&#9652;</span></label>
+                    <ul class="dropdown-content">
+                        <li><a href="#Roger Federer">Roger Federer</a></li>
+                        <li><a href="#Serena Williams">Serena Williams</a></li>
+                        <li><a href="#Pete Sampras">Pete Sampras</a></li>
+                        <li><a href="#Venus Williams">Venus Williams</a></li>
+                        <li><a href="#Andre Agassi">Andre Agassi</a></li>   
+                        <li><a href="#Rafael Nadal">Rafael Nadal</a></li>
+                        <li><a href="#Novak Djokovic">Novak Djokovic</a></li>
+                        <li><a href="#Andy Murray">Andy Murray</a></li>
+                        <li><a href="#Carlos Alcazar">Carlos Alcazar</a></li>
+                        <li><a href="#Steffi Graf">Steffi Graf</a></li>
+                        <li><a href="#Jannik Sinner">Jannik Sinner</a></li>
+                        <li><a href="#Martina Hingis">Martina Hingis</a></li>
+                    </ul>
+                </li>
+                <li class="No-dropdown">
+                    <a href="#photos">Gallery</a>
+                </li>
+                    
+                </li>
+            </ul>
+        </aside>
+
+        <span>Please select an option.</span>
+        <div class="content">
+            <h4>Welcome to the Tennis Tournament Page</h4>
+            <p>This page provides information about various tennis tournaments, players, and galleries.</p>
+        </div>
+        <div id="US Open">
+            <h2>US Open</h2>
+            <img src="https://abellagraphicdesign.com/wp-content/uploads/2023/09/usopen-1.jpg" alt="US Open Logo" height="300">
+            <p>The US Open is one of the four Grand Slam tennis tournaments and takes place annually in New York City, typically from late August to early September. Played on hard courts, it is renowned for its fast-paced matches, energetic night sessions, and passionate crowds. Established in 1881, the tournament has evolved into a global spectacle, attracting the best players from around the world to compete in men’s and women’s singles, doubles, and mixed doubles events.
+            </p> 
+            <br>
+            <p>The US Open is celebrated not only for its high level of competition but also for its vibrant atmosphere, entertainment, and iconic moments in tennis history. From Arthur Ashe Stadium's electrifying environment to groundbreaking performances by legends like Serena Williams, Roger Federer, and Novak Djokovic, the event offers fans an unforgettable experience. With record-breaking prize money and millions of viewers worldwide, the US Open continues to be a defining force in the world of professional tennis.</p>
+
+        </div>
+        <div id="French Open">
+            <h2>French Open</h2>
+            <img src="https://wallpapers.com/images/hd/french-open-roland-garros-logo-p6b1e4nxw0283k4t.jpg" alt="US Open Logo" height="300" width="545">
+            <p>The French Open, also known as Roland-Garros, is one of the four Grand Slam tennis tournaments and is held annually in Paris, France. Played on red clay courts, it is the only Grand Slam played on this unique surface, making it one of the most physically demanding tournaments in professional tennis. The slower surface and higher bounce require exceptional endurance, strategy, and skill, testing even the greatest players.</p>
+            <br>
+            <p>Established in 1891, the French Open has a rich history and is renowned for its passionate fans and iconic matches. The tournament typically takes place from late May to early June and attracts top players from around the world. The main stadium, Court Philippe Chatrier, is famous for its electric atmosphere during key matches. The French Open has seen legendary performances from players like Rafael Nadal, who holds the record for the most titles won at this event, and Serena Williams, who has also made her mark on the clay courts of Roland-Garros.</p>
+
+        </div>  
+        <div id="Australian Open">
+            <h2>Australian Open</h2>
+            <img src="https://i.pinimg.com/originals/5c/b6/8d/5cb68dae10b850f708153c5a3563b067.png" alt="US Open Logo" height="300" width="545">
+            <p>The Australian Open is the first Grand Slam of the tennis calendar year, held every January in Melbourne, Australia. Known for its vibrant energy, state-of-the-art facilities, and intense summer heat, it sets the stage for an exciting season of tennis. Played on hard courts at Melbourne Park, the tournament features men's and women's singles, doubles, mixed doubles, and junior events, attracting the world's top-ranked players.</p>
+            <br>
+            <p>Since its inception in 1905, the Australian Open has grown into a global sporting spectacle, earning the nickname "The Happy Slam" for its friendly atmosphere and fan engagement. With iconic venues like Rod Laver Arena and innovations such as retractable roofs and night matches, it offers an unmatched viewing experience.</p>
+            <br>
+            <p>Legends like Novak Djokovic, Serena Williams, and Roger Federer have all made history here, thrilling fans with unforgettable performances. The Australian Open combines elite competition with cultural flair, making it a must-watch event each year.</p>
+
+        </div>  
+        <div id="Wimbledon">
+            <h2>Wimbledon</h2>
+            <img src="https://www.icon-icon.com/wp-content/uploads/2021/06/byersandco-wimbledon-1594393920819.jpg" alt="Wimbledon Logo" height="300" width="545">
+            <p>Wimbledon is the oldest and most prestigious tennis tournament in the world, held annually in London, England since 1877. As the only Grand Slam played on grass courts, it represents the sport’s rich tradition and elegance. Known for its strict dress code, royal patronage, and timeless rituals like strawberries and cream, Wimbledon offers a unique blend of heritage and world-class competition.</p>
+            <br>
+            <p>The tournament takes place at the All England Club and features men’s and women’s singles, doubles, and mixed doubles events. With its iconic Centre Court and retractable roof, Wimbledon has hosted legendary matches involving tennis greats like Roger Federer, Serena Williams, Novak Djokovic, and Martina Navratilova.</p>
+            <br>
+            <p>Wimbledon’s prestige lies not only in its history but also in the respect it commands among players and fans alike. Combining tradition with thrilling athleticism, it remains a defining stage for tennis excellence and continues to captivate audiences around the globe each summer.</p>
+
+        </div>
+
+
+        <div id="Roger Federer">
+            <h2>Roger Federer</h2>
+            <img src="https://lh3.googleusercontent.com/proxy/ucn9CmHBV7GqbdbqzQtjdvl9ItJ4PDVyfCpdQHzh-rb7D-7eExb8Kd4Rimh-y8Qs9wESuOsVVHgi1Esw5uXBbwDgo--XW1PxlhSV" alt="Roger Federer" height="300" >
+            <p>Roger Federer is widely regarded as one of the most influential and accomplished figures in the history of tennis. Renowned for his elegant playing style and graceful movement, Federer combined technical brilliance with strategic intelligence, producing a brand of tennis that transcended eras and captivated global audiences. His mastery of timing, his effortless single-handed backhand, and his impeccable footwork enabled him to dominate on all surfaces and against multiple generations of players. Federer’s rivalries with contemporaries like Rafael Nadal and Novak Djokovic were not only era-defining but also elevated the popularity of the sport to unprecedented heights. Known for his calm demeanor and exemplary sportsmanship, he consistently upheld the values of fairness and respect, becoming a role model for both fans and fellow competitors. Off the court, Federer has made a lasting impact through his philanthropic work, particularly in education and youth empowerment via the Roger Federer Foundation. Even after retiring from professional play, his legacy continues to inspire aspiring athletes and tennis enthusiasts worldwide. Federer is celebrated not only for his achievements but also for the elegance, humility, and enduring class he brought to the game.</p>
+            <br>
+            <h4><b>Career Achievements</b></h4>
+            <ul>
+                <li>🏆 Won 20 Grand Slam titles, including 8 Wimbledon titles (a record).</li>
+                <li>🇬🇧 Wimbledon Champion in 2003–2007, 2009, 2012, 2017.</li>
+                <li>🇦🇺 Won 6 Australian Open titles, last in 2018.</li>
+                <li>🇫🇷 Won 1 French Open in 2009, completing the Career Grand Slam.</li>
+                <li>🇺🇸 Won 5 US Open titles, consecutively from 2004 to 2008.</li>
+            </ul>
+        </div>
+
+        <div id="Serena Williams">
+            <h2>Serena Williams</h2>
+            <img src="https://content.api.news/v3/images/bin/8b576a17ddcbbb358dcb5479f4438292" alt="Serena Williams" height="300" >
+            <p>Serena Williams is a transformative figure in the landscape of professional tennis and global sports. Known for her explosive power, remarkable athleticism, and unwavering determination, she brought a new level of intensity and competitiveness to the women’s game. Serena's dominance extended across multiple surfaces and eras, characterized by her powerful serve, aggressive baseline play, and exceptional mental resilience. Her presence redefined expectations, not just in terms of performance, but also in challenging long-standing norms related to race, gender, and representation in sports. Beyond her accomplishments on court, Serena has been a powerful voice for equality, consistently advocating for gender pay equity, maternal rights, and racial justice. Her influence spans well beyond tennis, with successful ventures in fashion, venture capital, and media, establishing her as a multi-dimensional role model and cultural icon. Serena Williams’ legacy is defined not only by her athletic excellence but also by her courage to use her platform for meaningful change, making her one of the most important athletes of the 21st century.</p>
+            <br>
+            
+            <h4><b>Career Achievements</b></h4>
+            <ul>
+                <li>🏆 Won 23 Grand Slam singles titles, including 7 Wimbledon titles.</li>
+                <li>🇬🇧 Wimbledon Champion in 2002–2003, 2009, 2010, 2012, 2016, 2017, and 2018.</li>
+                <li>🇦🇺 Won 7 Australian Open titles, last in 2017.</li>
+                <li>🇫🇷 Won 3 French Open titles, last in 2015.</li>
+                <li>🇺🇸 Won 6 US Open titles, last in 2014.</li>
+            </ul>
+        </div>
+
+        <div id="Pete Sampras">
+            <h2>Pete Sampras</h2>
+            <img src="https://images.squarespace-cdn.com/content/v1/57cf18ae6b8f5ba693497e1a/1593705455685-FESANQWAYHZXE6Q5R24R/AP_9507090158.jpg" alt="Pete Sampras" height="300" width="230">
+            <p>Pete Sampras stands as one of the most technically proficient and mentally disciplined players in the history of the sport. Distinguished by his calm composure and focused demeanor, Sampras was known for his powerful serve, exceptional volleying skills, and tactical efficiency—hallmarks of his classic serve-and-volley game. His style was tailored for fast surfaces, where his ability to control rallies and close points at the net set him apart from his contemporaries. Sampras exemplified professionalism on and off the court, choosing to let his game speak rather than courting media attention or theatrics. His consistency and work ethic earned him the respect of peers and analysts, and his rivalries, particularly with Andre Agassi, brought high drama and contrasting personalities to the spotlight of 1990s tennis. Despite his reserved public persona, Sampras played with deep passion and left a lasting imprint on the sport through his clean technique, unwavering focus, and legacy as a dominant force during one of tennis's most competitive decades.</p>
+            <br>
+            <h4><b>Career Achievements</b></h4> 
+            <ul>
+                <li>🏆 Won 14 Grand Slam singles titles, including 7 Wimbledon titles.</li>
+                <li>🇬🇧 Wimbledon Champion in 1993–1995, 1997–2000.</li>
+                <li>🇦🇺 Won 2 Australian Open titles, in 1994 and 1997.</li>
+                <li>🇫🇷 Won 1 French Open in 1996.</li>
+                <li>🇺🇸 Won 5 US Open titles, in 1990, 1993, 1995, 1996, and 2002.</li>
+            </ul>
+        </div>
+
+        <div id="Venus Williams">
+            <h2>Venus Williams</h2>
+            <img src="https://newsimg.bbc.co.uk/media/images/41259000/gif/_41259659_venustrophy2.gif" alt="Venus Williams" height="300" >
+            <p>Venus Williams is recognized as a trailblazer in modern tennis, whose contributions have extended well beyond the boundaries of the sport. As a formidable competitor, Venus brought a new standard of athleticism and power to the women’s game, often overwhelming opponents with her aggressive serves and baseline consistency. Her presence marked a significant evolution in the sport, pushing the physical and tactical demands of competition to new heights. Off the court, Venus has been instrumental in advocating for equality, most notably leading the charge for equal prize money at Wimbledon and other major tournaments. Her dignified yet persistent approach to social and gender-related issues has cemented her reputation as not only a champion athlete but also a change-maker. Venus has also achieved success as an entrepreneur, pursuing ventures in interior design, fashion, and wellness. Her resilience, especially in overcoming personal and physical challenges, is a testament to her enduring strength and character. As a public figure, Venus Williams continues to inspire with her integrity, vision, and pioneering legacy.</p>
+            <br>
+            <h4><b>Career Achievements</b></h4>
+            <ul>
+                <li>🏆 Won 7 Grand Slam singles titles, including 5 Wimbledon titles.</li>
+                <li>🇬🇧 Wimbledon Champion in 2000, 2001, 2005, 2007, and 2008.</li>
+                <li>🇦🇺 Won 2 Australian Open titles, in 2003 and 2017.</li>
+                <li>🇫🇷 Won 1 French Open in 2000.</li>
+                <li>🇺🇸 Won 2 US Open titles, in 2000 and 2001.</li>
+            </ul>
+        </div>
+
+        <div id="Andre Agassi">
+            <h2>Andre Agassi</h2>
+
+            <img src="https://www.sporting-heroes.net/content/thumbnails/00059/05801-zoom.jpg" alt="Andre Agassi" height="300" >
+
+            <p>Andre Agassi is widely celebrated not only for his extraordinary talent on the court but also for his transformative journey as a sportsman and individual. Known early in his career for his rebellious style and charisma, Agassi captivated audiences with his powerful groundstrokes, particularly his return of serve, which is considered among the best in tennis history. His evolution from a flamboyant showman to a focused, disciplined competitor highlighted the depth of his personal growth and commitment to excellence. Agassi’s impact was not limited to his athletic accomplishments—he became a cultural icon who challenged traditional images of professionalism in sport, ultimately using his experience to advocate for authenticity and transparency in athletes’ lives. Off the court, Agassi has made a significant difference in the field of education through his foundation and charter school initiatives, particularly in underserved communities. His story is one of resilience, reinvention, and redemption, and his influence continues to be felt in the world of tennis and beyond.</p>
+            <br>    
+            <h4><b>Career Achievements</b></h4>
+            <ul>
+                <li>🏆 Won 8 Grand Slam singles titles, including 4 Australian Open titles.</li>
+                <li>🇬🇧 Wimbledon Champion in 1992.</li>
+                <li>🇦🇺 Won 4 Australian Open titles, in 1995, 2000, 2001, and 2003.</li>
+                <li>🇫🇷 Won 1 French Open in 1999.</li>
+                <li>🇺🇸 Won 2 US Open titles, in 1994 and 1999.</li>
+            </ul>
+        </div>
+        <div id="Rafael Nadal">
+            <h2>Rafael Nadal</h2>
+            <img src="https://images.lacotedesmontres.com/mesIMG/imgStd/29773.jpg" alt="Rafael Nadal" height="300" >
+
+            <p>Rafael Nadal is a globally admired figure in tennis, known for his extraordinary work ethic, unparalleled mental toughness, and unyielding competitive spirit. Hailing from Mallorca, Spain, Nadal's playing style is marked by relentless intensity, heavy topspin, and remarkable court coverage, particularly on clay, where he revolutionized how the surface is played. His left-handed forehand, explosive movement, and physical style have consistently worn down even the most elite opponents. Beyond his athletic abilities, Nadal is revered for his humility, discipline, and gracious demeanor—attributes that have made him a favorite among fans and peers alike. His longstanding rivalries with Roger Federer and Novak Djokovic have shaped a golden era in tennis, delivering some of the most compelling and historic matches the sport has ever witnessed. Off the court, Nadal has invested in nurturing young talent through his Rafael Nadal Academy and has remained actively involved in philanthropic efforts. He is celebrated not only for his achievements but also for embodying values of respect, resilience, and hard work, making him a role model far beyond the realm of sport.</p>
+            <br>
+            <h4><b>Career Achievements</b></h4>
+            <ul>
+                <li>🏆 Won 20 Grand Slam singles titles, including a record 14 French Open titles.</li>
+                <li>🇬🇧 Wimbledon Champion in 2008 and 2010.</li>
+                <li>🇦🇺 Won 2 Australian Open titles, in 2009 and 2022.</li>
+                <li>🇫🇷 Won 14 French Open titles, from 2005 to 2020.</li>
+                <li>🇺🇸 Won 4 US Open titles, in 2010, 2013, 2017, and 2019.</li>
+            </ul>
+        </div>
+
+        <div id="Novak Djokovic">
+            <h2>Novak Djokovic</h2>
+            <img src="https://ogden_images.s3.amazonaws.com/www.miningjournal.net/images/2019/07/15073647/AP19195702684757-598x840.jpg" alt="Novak Djokovic" height="300" >
+
+            <p>Novak Djokovic is one of the most strategically complete and physically resilient athletes in tennis history. Renowned for his flexibility, endurance, and uncanny ability to return virtually any shot, Djokovic has established himself as a dominant force across all surfaces. His deep court positioning, intelligent shot selection, and mental composure have allowed him to neutralize the strengths of his greatest rivals and consistently perform under pressure. Djokovic's commitment to peak physical conditioning, diet, and mindfulness has redefined what it means to prepare for high-performance sport. His fierce rivalries with Federer and Nadal have led to some of the most iconic matches in modern tennis, each showcasing his incredible tenacity and will to win. Off the court, Djokovic is known for his humanitarian work through the Novak Djokovic Foundation, focusing on early childhood education and development. Though often seen as a polarizing figure, his impact on the sport is undeniable—his dedication, discipline, and record-breaking pursuits have firmly secured his place as one of the most influential athletes of his generation.</p>
+            <br>
+            <h4><b>Career Achievements</b></h4>
+            <ul>
+                <li>🏆 Won 20 Grand Slam singles titles, including a record 10 Australian Open titles.</li>
+                <li>🇬🇧 Wimbledon Champion in 2011, 2014, 2015, and 2019.</li>
+                <li>🇦🇺 Won 10 Australian Open titles, in 2008, 2011, 2012, 2013, 2015, 2016, 2019, 2020, 2021, and 2023.</li>
+                <li>🇫🇷 Won 2 French Open titles, in 2016 and 2021.</li>
+                <li>🇺🇸 Won 3 US Open titles, in 2011, 2015, and 2018.</li>
+            </ul>
+        </div>
+
+        <div id="Andy Murray">
+            <h2>Andy Murray</h2>
+            <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1HjxVL.img?w=634&h=955&m=6&x=301&y=350&s=79&d=79" alt="Andy Murray" height="300">
+
+            <p>Andy Murray is widely respected for his tactical intelligence, emotional depth, and relentless perseverance on the tennis court. As one of the key figures in the modern era, Murray has played a crucial role in bridging the gap between the sport’s elite trio and the rest of the field. His game is characterized by exceptional court coverage, a versatile two-handed backhand, and a deep understanding of shot patterns and tempo control. Murray’s success has come through sheer grit, with many of his most memorable performances being hard-fought battles that showcased his mental and physical resolve. Originating from Scotland, he also carries the distinction of being a national sporting hero, credited with reinvigorating British tennis. Beyond his technical talents, Murray is known for his advocacy for gender equality and mental health awareness, often using his platform to speak on issues that transcend sport. Despite career-threatening injuries, his commitment to returning to professional play has become a story of remarkable courage and passion. Murray’s legacy is built not just on victories, but on his resilience, humanity, and unwavering dedication to the game.</p>
+            <br>
+            <h4><b>Career Achievements</b></h4>
+            <ul>
+                <li>🏆 Won 3 Grand Slam singles titles, including 2 Wimbledon titles.</li>
+                <li>🇬🇧 Wimbledon Champion in 2013 and 2016.</li>
+                <li>🇦🇺 Won 1 Australian Open title in 2010.</li>
+                <li>🇫🇷 Won 1 French Open title in 2016.</li>
+                <li>🇺🇸 Won 1 US Open title in 2012.</li>
+            </ul>
+        </div>
+
+        <div id="Carlos Alcaraz">
+            <h2>Carlos Alcaraz</h2>
+            <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202307/carlos_alcaraz_wimbledon_reuters-three_four.jpg?VersionId=zk_vCxB6Hme99SdgjpufWuBE5Bzump0N" alt="Carlos Alcaraz" height="300" >
+
+            <p>Carlos Alcaraz is one of the most exciting and dynamic young talents to emerge in the modern era of tennis. With an explosive playing style, boundless energy, and mature on-court decision-making far beyond his years, Alcaraz has quickly captured the attention of the global tennis community. He brings a refreshing blend of aggressive baseline power, creative shot-making, and an ability to transition swiftly from defense to offense—making him a formidable opponent across all surfaces. Alcaraz's fearless approach and willingness to engage in long, intense rallies reflect a mindset that is both tenacious and bold. His rise to prominence at such a young age has drawn comparisons to legends of the sport, yet he continues to carve his own path with humility and discipline. Guided by a strong support team and grounded values, Alcaraz has shown a unique blend of charisma, athleticism, and determination. As he continues to evolve, he represents the promising future of tennis—a bridge between generations and a symbol of the sport’s ongoing transformation.</p>
+            <br>
+            <h4><b>Career Achievements</b></h4>
+            <ul>
+                <li>🏆 Won 1 Grand Slam singles title, the 2022 US Open.</li>
+                <li>🇬🇧 Wimbledon Champion in 2023.</li>
+                <li>🇦🇺 Reached the quarterfinals of the Australian Open in 2022.</li>
+                <li>🇫🇷 Reached the semifinals of the French Open in 2022.</li>
+                <li>🇺🇸 Won the US Open in 2022, becoming the youngest men's champion since 2003.</li>
+            </ul>
+        </div>
+
+        <div id="Steffi Graf">
+            <h2>Steffi Graf</h2>
+            <img src="https://i.pinimg.com/564x/2b/d7/b8/2bd7b8ab7f899c58a0c6087a4664fa25.jpg" alt="Steffi Graf" height="300" >
+
+            <p>Steffi Graf is a legendary figure in tennis whose remarkable career left an indelible mark on the sport’s history. Renowned for her speed, athleticism, and dominant forehand, Graf combined fierce competitiveness with grace, creating a playing style that was both powerful and elegant. Her ability to transition seamlessly between aggressive groundstrokes and tactical finesse made her a versatile force on all court surfaces. Graf’s reign in the sport was defined by consistency and composure, with a demeanor that reflected quiet strength and professional integrity. She played with purpose and focus, often dismantling opponents with a relentless baseline game and strategic shot placement. Off the court, Graf has remained a private yet impactful presence, contributing to charitable causes and supporting youth development through the Children for Tomorrow foundation. Her legacy extends far beyond her career achievements—she is admired for the discipline, dignity, and excellence she brought to the game, inspiring generations of players who followed.</p>
+            <br>
+            <h4><b>Career Achievements</b></h4>
+            <ul>
+                <li>🏆 Won 22 Grand Slam singles titles, including 7 Wimbledon titles.</li>
+                <li>🇬🇧 Wimbledon Champion in 1988, 1989, 1991, 1992, 1993, 1995, and 1996.</li>
+                <li>🇦🇺 Won 4 Australian Open titles, in 1988, 1989, 1990, and 1994.</li>
+                <li>🇫🇷 Won 6 French Open titles, in 1987, 1988, 1993, 1995, 1996, and 1999.</li>
+                <li>🇺🇸 Won 5 US Open titles, in 1988, 1989, 1993, 1995, and 1996.</li>
+            </ul>
+        </div>
+
+        <div id="Jannik Sinner">
+            <h2>Jannik Sinner</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-0XMOGXw3knxN3ApEPo5l-_ChtZY9NTEBQQ&s" alt="Jannik Sinner" height="300" >
+
+            <p>Jannik Sinner is part of a new wave of tennis professionals who combine athleticism, precision, and composure into a highly competitive package. Originating from Italy, Sinner’s rise through the professional ranks has been marked by rapid development, intelligent shot selection, and a mature mental game. His style is built around clean, aggressive baseline play, highlighted by a powerful two-handed backhand and a strong service game. What distinguishes Sinner is his calm court presence, exceptional movement, and capacity to absorb pressure from more experienced opponents. Despite his youth, he has shown the ability to stay composed in high-stakes matches, often displaying a tactical awareness that belies his age. Sinner is also known for his quiet confidence, dedication to improvement, and team-oriented approach to training and performance. As he continues to grow physically and technically, he is positioned as one of the leading figures in the future of men’s tennis—a player who combines discipline, humility, and ambition in equal measure.</p>
+            <br>
+            <h4><b>Career Achievements</b></h4>
+            <ul>
+                <li>🏆 Won 1 ATP Masters 1000 title in Miami in 2021.</li>
+                <li>🇬🇧 Reached the quarterfinals of Wimbledon in 2022.</li>
+                <li>🇦🇺 Reached the semifinals of the Australian Open in 2022.</li>
+                <li>🇫🇷 Reached the quarterfinals of the French Open in 2021.</li>
+                <li>🇺🇸 Reached the semifinals of the US Open in 2023.</li>
+            </ul>
+        </div>
+
+        <div id="Martina Hingis">
+            <h2>Martina Hingis</h2>
+            <img src="https://i.pinimg.com/originals/cc/5a/9f/cc5a9fd0606c74dd97f887e7ac5aab50.jpg" alt="https://i.pinimg.com/originals/cc/5a/9f/cc5a9fd0606c74dd97f887e7ac5aab50.jpg" height="300" >
+
+            <p>Martina Hingis is recognized as one of the most precocious and tactically intelligent players in the history of women’s tennis. Rising to prominence in the late 1990s, Hingis captivated the tennis world with her exceptional court awareness, impeccable timing, and strategic finesse. Unlike many of her power-hitting contemporaries, Hingis relied on anticipation, shot placement, and an advanced understanding of game dynamics to outmaneuver opponents. Her playing style was marked by elegant footwork, a precise two-handed backhand, and the rare ability to construct points with surgical precision. Born in Switzerland and named after Martina Navratilova, Hingis was destined for tennis greatness and became a global sensation while still in her teens. Her career, however, was interrupted by injury, leading to an early retirement, though she later returned successfully to both singles and doubles competition. Beyond her accomplishments, Hingis brought a sense of intelligence and artistry back to the sport during a time increasingly dominated by power. Her legacy lies not only in her titles but also in her contribution to the tactical evolution of the women’s game. As a multiple Grand Slam winner in both singles and doubles, Hingis remains a celebrated figure—admired for her adaptability, resilience, and the cerebral beauty she brought to tennis.</p>
+            <br>
+            <h4><b>Career Achievements</b></h4>
+            <ul>
+                <li>🏆 Won 5 Grand Slam singles titles: 3 Australian Open (1997, 1998, 1999), 1 Wimbledon (1997), 1 US Open (1998).</li>
+                <li>🇬🇧 Reached the finals of Wimbledon in 1998 and 1999.</li>
+                <li>🇦🇺 Reached the semifinals of the Australian Open in 2001.</li>
+                <li>🇫🇷 Reached the finals of the French Open in 1997.</li>
+                <li>🇺🇸 Reached the semifinals of the US Open in 1999.</li>
+            </ul>
+        </div>
+
+
+        <div id="photos">
+            <h2>Golden Glimpses</h2>
+            <img src="https://images.news18.com/ibnlive/uploads/2022/09/rafael-nadal-roger-federer-afp.jpg" alt="Tennis Gallery 1" height="300">
+            <p>Gallery 1 showcases images from various tennis tournaments.</p>
+            <br>
+            <img src="https://i.pinimg.com/736x/29/5b/50/295b5005eb9893af0409d1f431723136.jpg" alt="Tennis Gallery 2" height="300">
+            <p>Gallery 2 features legendary players in action.</p>
+            <br>
+            <img src="https://media.licdn.com/dms/image/v2/D4D12AQELpcXlWrXIsg/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1699727919881?e=2147483647&v=beta&t=kSnps0N3N7C40N7G5n-15SPtOPD1svC3m29Daf8EHlI" alt="Tennis Gallery 3" height="300">
+            <p>Gallery 3 captures the spirit of tennis tournaments.</p>
+            <br>
+            <img src="https://ichef.bbci.co.uk/ace/standard/624/cpsprodpb/1219/production/_126833640_federer.jpg" alt="Tennis Gallery 4" height="300">
+            <p>Gallery 4 highlights the beauty of tennis courts and players.</p>
+            <br>
+            <img src="https://images.news18.com/ibnlive/uploads/2025/05/Untitled-11-2025-05-53726cf534e7c3d3f9e9a7b2f9ed2377-16x9.jpg?impolicy=website&width=640&height=360" alt="Tennis Gallery 5" height="300">
+            <p>Gallery 5 features iconic moments from tennis history.</p>
+            <br>
+            <img src="https://cdn.artphotolimited.com/images/60913d60bd40b85323893a87/1000x1000/serena-und-venus-williams.jpg" alt="Tennis Gallery 6" height="300">
+            <p>Gallery 6 showcases the camaraderie and sportsmanship in tennis.</p>
+            <br>
+            <img src="https://i.ytimg.com/vi/IcWtX1UvIks/maxresdefault.jpg" alt="Tennis Gallery 7" height="300">
+            <p>Gallery 7 captures the emotions and celebrations of tennis players.</p>
+            <br>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWazhQWv76EoqFduOqzbPQFdB1p3gOB6Y-ug&s" height="300">
+            <p>Gallery 8 features the legendary rivalry between Nadal and Federer.</p>
+            <br>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIg1a-Lz2MQIW9sm58fEnEbCEqLql1_FKnSg&s" alt="Tennis Gallery 9" height="300">
+            <p>Gallery 9 highlights the achievements of Novak Djokovic and Serena Williams.</p>
+            <br>
+            <img src="https://media.cnn.com/api/v1/images/stellar/prod/2025-06-08t190854z-1002150288-up1el681h0fim-rtrmadp-3-tennis-frenchopen.JPG?c=original" alt="Tennis Gallery 10" height="300">
+            <p>Gallery 10 captures the essence of tennis tournaments around the world.</p>
+            <br>
+            <img src="https://images.wsj.net/im-43540179?width=700&height=536" alt="Tennis Gallery 11" height="300">
+            <p>Gallery 11 showcases the passion and dedication of tennis players.</p>
+        </div>
+       
+
+    </main>
+
+    
+</body>
 </html>
