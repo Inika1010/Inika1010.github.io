@@ -1,0 +1,24 @@
+{
+  "name": "my_tennis_website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Inika1010/Inika1010.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Inika1010/Inika1010.github.io/issues"
+  },
+  "homepage": "https://github.com/Inika1010/Inika1010.github.io#readme",
+  "description": "",
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "rss-parser": "^3.13.0"
+  }
+}
