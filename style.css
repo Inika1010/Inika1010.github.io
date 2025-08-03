@@ -165,3 +165,86 @@ header ul li a:hover {
     display: flex;
     flex-direction: column;
 }
+
+
+#tennis-news-container {
+    max-width: 800px; /* Limits the width of the news section */
+    margin: 20px auto; /* Centers the container horizontally with 20px top/bottom margin */
+    padding: 20px; /* Spacing inside the container */
+    border: 1px solid #ddd; /* Light grey border around the container */
+    border-radius: 8px; /* Slightly rounded corners */
+    background-color: #fff; /* White background for the news box */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+    font-family: Arial, sans-serif; /* Standard readable font */
+    line-height: 1.6; /* Good line spacing for readability */
+    color: #333; /* Dark grey text color */
+}
+
+/* Heading for the news section */
+#tennis-news-container h2 {
+    color: #333; /* Dark grey color for the heading */
+    text-align: center; /* Center the heading text */
+    margin-bottom: 25px; /* Space below the heading */
+    border-bottom: 2px solid #007bff; /* A blue line under the heading for emphasis */
+    padding-bottom: 10px; /* Space between heading text and the blue line */
+}
+
+/* Style for each individual news item */
+.news-item {
+    border-bottom: 1px solid #eee; /* Light grey separator line between articles */
+    padding-bottom: 15px; /* Space below the content of each article */
+    margin-bottom: 15px; /* Space below the separator line */
+}
+
+/* Remove the bottom border from the very last news item for a cleaner look */
+.news-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+/* Styling for the article title (which is usually a link) */
+.news-item h3 {
+    margin-top: 0; /* Remove default top margin */
+    margin-bottom: 8px; /* Space below the title */
+    font-size: 1.3em; /* Slightly larger font size for titles */
+    color: #007bff; /* A vibrant blue color for the link (ESPN blue-ish) */
+}
+
+/* Styling for the actual link within the title */
+.news-item a {
+    text-decoration: none; /* Removes the default underline from links */
+    color: inherit; /* Inherits the color from the parent h3 (so it's blue) */
+}
+
+/* Effect when hovering over an article link */
+.news-item a:hover {
+    text-decoration: underline; /* Adds an underline when the mouse is over the link */
+    color: #0056b3; /* Slightly darker blue on hover for visual feedback */
+}
+
+/* Styling for the article description/excerpt */
+.news-item p {
+    font-size: 0.95em; /* Slightly smaller font size than body text */
+    color: #555; /* Medium grey color for descriptions */
+    margin-top: 5px; /* Space above the description */
+    margin-bottom: 8px; /* Space below the description */
+}
+
+/* Styling for the publication date */
+.news-item small {
+    color: #777; /* Lighter grey color for the date */
+    font-size: 0.8em; /* Smaller font size for the date */
+    display: block; /* Makes the date appear on its own line below the description */
+}
+
+/* --- Basic Body Styles (Optional - adjust to fit your overall site design) --- */
+/* You might already have similar styles in your styles.css */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4; /* Light grey background for the page */
+    margin: 0;
+    padding: 20px;
+}
